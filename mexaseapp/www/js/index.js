@@ -49,3 +49,9 @@ var app = {
 };
 
 app.initialize();
+
+$(document).ready(function () {
+    $("#areaProfessorBtn").click(function () {
+        $("#areaProfessorLogin").modal();
+    });
+});
